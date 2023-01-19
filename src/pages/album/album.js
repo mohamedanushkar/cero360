@@ -11,7 +11,7 @@ const Album = () => {
     <div className="container">
       <div className="flex items-start justify-between">
         <h2 class="text-stone-800 mb-4 m-2">Images</h2>
-        <Link to={"/"} className="cursor-pointer">
+        <Link to={"/"} class="text-stone-800 mb-4 m-2 cursor-pointer">
           Back
         </Link>
       </div>
