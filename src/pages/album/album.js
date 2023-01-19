@@ -41,7 +41,7 @@ const Album = () => {
               <img className="inline-block" src={url} alt="Preview" />
             ) : (
               <p className="w-full h-full bg-gray-300 flex items-center justify-center">
-                Please selects an image
+                Please select an image
               </p>
             )}
           </div>
