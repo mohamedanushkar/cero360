@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .container {
-    @apply p-2 xs:max-w-[450px] sm:max-w-[550px] md:max-w-[755px] lg:max-w-[600px] xl:max-w-[832px] 2xl:max-w-[832px];
-  }
-
+@layer base {
   h1,
   h2,
   h3,
